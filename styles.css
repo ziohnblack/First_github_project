@@ -35,11 +35,30 @@ a {
     color: #6415ff;
 }
 
+h2 {
+    color: #243e63;
+    font-weight: 700;
+}
+
+.big {
+    font-size: 48px;
+}
+
+.med {
+    font-size: 36px;
+}
+
 h5 {
     font-weight: 700;
     font-size: 16px;
     color: #6415ff;
     letter-spacing: 0.1rem;
+}
+
+h4 {
+    font-size: 20px;
+    color: #243e63;
+    margin-left: 12px;
 }
 
 p {
@@ -56,6 +75,7 @@ button {
     border: none;
     border-radius: 9999px;
     font-weight: 700;
+    cursor: pointer;
 }
 
 /* 
@@ -364,3 +384,244 @@ VALUES
     font-size: 18px;
     margin-top: 32px;
 }
+
+.values__btn {
+    padding: 12px 32px;
+    margin-top: 48px;
+    height: 45px;
+}
+
+.affordable {
+    display: flex;
+    flex-direction: column;
+}
+
+.prin__head {
+    display: flex;
+    align-items: center;
+}
+
+.affordable, .professionalism {
+    margin: 48px 32px 0 0;
+}
+
+.prin__svg--wrapper {
+    height: 36px;
+    width: 36px;
+    background-color: #9ae6b4;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.principles {
+    display: flex;
+}
+
+
+.prof {
+    background-color: #feb2b2;
+}
+
+.feather {
+    opacity: 0.5;
+    width: 20px;
+    height: 20px;
+}
+
+/*
+PRICING
+*/
+
+.pricing__sup--title {
+    margin-bottom: 16px;
+}
+
+.pricing__description {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.pricing__para {
+    width: 60%;
+    text-align: center;
+}
+
+.pricing__plans {
+    display: flex;
+    position: relative;
+}
+
+.plan {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    padding: 8px 32px;
+    margin: 64px 32px 0 0;
+    background-color: #ffffff;
+    border: 1px solid rgb(226, 232, 240);
+    border-radius: 0.5rem;
+    width: calc(100% / 3);
+}
+
+.plan__highlight {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    height: 0.5rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem;
+    background-color: linear-gradient(115deg, rgb(56, 178, 172) 0%, rgb(129, 230, 217) 100%);
+}
+
+.price__head {
+    padding: 32px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.name {
+    font-size: 20px;
+    color: #1a202c;
+    font-weight: 700;
+}
+
+.price {
+    font-size: 48px;
+    color: #1a202c;
+    margin: 4px 0;
+    font-weight: 700;
+}
+
+.duration {
+    color: #a0aec0;
+}
+
+.price__description {
+    padding: 32px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    border-top: 2px solid rgb(226, 232, 240);
+    border-bottom: 2px solid rgb(226, 232, 240);
+}
+
+.feature {
+    margin-top: 20px;
+    font-size: 16px;
+    color: #718096;
+    text-align: center;
+}
+
+.main-feature {
+    font-size: 20px;
+    color: #1a202c;
+    margin-top: 0;
+    font-weight: 700;
+}
+
+.price__btn--wrapper {
+    padding: 32px;
+}
+
+.price__btn {
+    padding: 16px 32px;
+    font-size: 14px;
+}
+
+/*
+TESTIMONIALS
+*/
+
+.testimonials__img--wrapper {
+    width: 40%;
+    display: flex;
+    align-items: center;
+}
+
+.testimonials__img {
+    width: 100%;
+}
+
+.testimonials__description {
+    width: 60%;
+    padding-left: 64px;
+}
+
+.kpsZpj {
+    width: 20px;
+    height: 20px;
+    margin-right: 4px;
+}
+
+.testimonials__title {
+    margin-top: 16px;
+}
+
+.testimonials__para {
+    font-size: 18px;
+    margin-top: 24px;
+}
+
+.testimonial__title {
+    font-size: 20px;
+    margin-top: 16px;
+    color: #243e63;
+}
+
+.testimonial__para {
+    margin-bottom: 40px;
+    color: #4a5568;
+}
+
+.client {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.client__info {
+    display: flex;
+}
+
+.client__img {
+    width: 80px;
+    height: 80px;
+    border-radius: 9999px;
+}
+
+.client__details {
+    margin-left: 32px;
+    text-align: left;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.client__name {
+    font-size: 20px;
+    color: #243e63;
+    font-weight: 700;
+}
+
+.client__job {
+    margin: 0;
+}
+
+.arrow {
+    margin: 0 12px;
+    padding: 16px;
+    background-color: #edf2f7;
+    border-radius: 9999px;
+}
+
+
+
