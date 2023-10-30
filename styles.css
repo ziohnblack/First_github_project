@@ -541,6 +541,10 @@ PRICING
 TESTIMONIALS
 */
 
+.testimonial {
+    margin-top: 40px;
+}
+
 .testimonials__img--wrapper {
     width: 40%;
     display: flex;
@@ -556,10 +560,11 @@ TESTIMONIALS
     padding-left: 64px;
 }
 
-.kpsZpj {
-    width: 20px;
-    height: 20px;
+.fa-star {
     margin-right: 4px;
+    color: rgb(240, 187, 53);
+    height: 20px;
+    width: 20px;
 }
 
 .testimonials__title {
@@ -585,7 +590,7 @@ TESTIMONIALS
 .client {
     display: flex;
     justify-content: space-between;
-    margin-top: 30px;
+    margin-top: 4px;
 }
 
 .client__info {
@@ -623,5 +628,84 @@ TESTIMONIALS
     border-radius: 9999px;
 }
 
+.arrows {
+    display: flex;
+    height: 48px;
+}
 
+.fa-arrow-left, .fa-arrow-right {
+    color: #6415ff;
+}
 
+.divider {
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+    border-right-width: 1px;
+    border: solid 1px rgb(226, 232, 240);
+}
+
+/*
+SUMMARY
+*/
+
+.main__background {
+    background-color: rgb(83, 33, 199);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 0.5rem;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+}
+
+.summary {
+    font-size: 30px;
+    color: #f7fafc;
+    font-weight: 700;
+    width: 50%;
+}
+
+.call__to--action {
+    display: flex;
+}
+
+.gs__btn {
+    color: #f7fafc;
+    font-weight: 700;
+    font-size: 16px;
+    margin-right: 32px;
+    padding: 20px 40px;
+    background-color: red;
+}
+
+.cu__btn {
+    color: #f7fafc;
+    font-size: 16px;
+    padding: 20px 40px;
+    border: 1px solid rgb(226, 232, 240);
+    background-color: transparent;
+}
+
+.gs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 282px;
+}
+
+/*
+FOOTER 
+*/
+
+footer {
+    height: 522px;
+    background-color:  rgb(83, 33, 199);
+    margin-top: 120px;
+}
