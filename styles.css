@@ -26,6 +26,7 @@ nav {
 
 a {
     text-decoration: none;
+    position: relative;
 }
 
 .purple {
@@ -73,6 +74,11 @@ button {
     border-radius: 9999px;
     font-weight: 700;
     cursor: pointer;
+    transition: all 300ms ease;
+}
+
+button:hover {
+    background-color: #4406c0;
 }
 
 /* 
@@ -89,6 +95,12 @@ HEADER
     align-items: center;
     justify-content: center;
     height: 100%;
+    font-weight: 700;
+    transition: all 300ms ease;
+}
+
+.treact-logo:hover {
+    color: #6415ff;
 }
 
 .logo {
@@ -106,6 +118,11 @@ HEADER
     padding: 0 0 4px;
     margin: 0 24px;
     color: #243e63;
+    transition: all 300ms ease;
+}
+
+.nav__link:hover {
+    color: #6415ff;
 }
 
 .login {
@@ -119,6 +136,12 @@ HEADER
     margin: 0;
     border-radius: 25px;
     height: 100%;
+    font-size: 14px;
+    transition: all 300ms ease;
+}
+
+.purple__btn:hover {
+    background-color: #4406c0;
 }
 
 /*
@@ -139,19 +162,32 @@ LANDING PAGE
 .customers__img {
     margin: 16px 0 0;
     width: 100%;
+    padding-right: 4rem;
+    opacity: 0.5;
 }
 
 .landing-page__img--wrapper {
     width: 60%;
+    margin-left: 80px;
 }
 
-.landing-page__input {
-    background-color: #ffffff;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
-    max-width: 28rem;
+.input__wrapper {
+    display: flex;
+    align-items: center;
     position: relative;
+}
+
+input {
+    padding: 20px 0;
+    border-radius: 9999px;
+    opacity: 0.4;
+    border: 2px solid rgb(36, 62, 111, 0.3);
+    width: 100%;
+    font-size: 100%;
+    outline: none;
+    transition: 300ms;
+    font-weight: 700;
+    padding-left: 32px;
 }
 
 .input__btn {
@@ -159,10 +195,15 @@ LANDING PAGE
     font-size: 16px;
     background-color: #6415ff;
     margin: 8px 8px 8px 0;
-    padding: 16px 0;
+    padding: 20px 32px;
     border: none;
-    width: 160px;
-    height: 52px;
+    font-size: 100%;
+    position: absolute;
+    right: 0;
+    font-weight: 700;
+    outline: none;
+    padding-top: 16px;
+    padding-bottom: 16px;
 }
 
 .landing-page__img {
@@ -185,13 +226,15 @@ h1 {
     margin: 80px 0 0;
     display: flex;
     flex-direction: column;
-    align-items: center;
+    align-items: start;
 }
 
 .partners__title {
     color: #a0aec0;
-    font-size: 16px;
+    font-size: 12px;
+    font-weight: 700;
 }
+
 
 /*
 FEATURES
@@ -224,14 +267,15 @@ FEATURES
 .services {
     display: flex;
     flex-wrap: wrap;
+    margin-top: 40px;
 }
 
 .service {
-    margin: 0 16px;
     padding: 32px 8px;
     display: flex;
     width: calc(100% / 3);
 }
+
 
 .service__description {
     display: flex;
@@ -623,6 +667,12 @@ TESTIMONIALS
     padding: 16px;
     background-color: #edf2f7;
     border-radius: 9999px;
+    transition: all 300ms ease;
+}
+
+.arrow:hover {
+    background-color: #d4dde6;
+    cursor: pointer;
 }
 
 .arrows {
@@ -679,7 +729,12 @@ SUMMARY
     font-size: 16px;
     margin-right: 32px;
     padding: 20px 40px;
-    background-color: red;
+    background-color: rgb(221, 56, 56);
+    transition: all 300ms ease;
+}
+
+.gs__btn:hover {
+    background-color: rgb(227, 25, 25);
 }
 
 .cu__btn {
@@ -688,6 +743,12 @@ SUMMARY
     padding: 20px 40px;
     border: 1px solid rgb(226, 232, 240);
     background-color: transparent;
+    transition: all 300ms ease;
+}
+
+.cu__btn:hover {
+    background-color: #f7fafc;
+    color: rgb(83, 33, 199);
 }
 
 .gs {
@@ -809,6 +870,11 @@ footer {
     justify-content: center;
     background-color: #f7fafc;
     border-radius: 50%;
+    transition: all 300ms ease;
+}
+
+.social__link:hover {
+    background-color: #bbd2e1;
 }
 
 .sl-margin {
@@ -820,14 +886,23 @@ footer {
     font-size: 16px;
 }
 
-.ftr__link--affect::after {
+.link__hover--effect:after {
     width: 100%;
-    height: 3px;
-    background-color: #f7fafc;
+    height: 2px;
     content: "";
     position: absolute;
-    transition: all 300ms ease;
-    bottom: -4;
+    bottom: -4px;
     right: 0;
+    background-color: #f7fafc;
+    transition: all 300ms ease;
+    opacity: 0;
+}
+
+.link__hover--effect:hover:after {
+    opacity: 1;
+}
+
+.purple__link:after {
+    background-color: #6415ff;
 }
 
