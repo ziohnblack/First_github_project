@@ -1259,3 +1259,30 @@ footer {
         text-align: center;
     }
 }
+
+@media (max-width: 480px) {
+    .landing-page__info, input, .input__btn, .plan, footer, .input__wrapper {
+        width: 100% !important;
+    }
+    .row {
+        padding: 16px;
+    }
+    .quality__btn, .values__btn {
+        font-size: 12px;
+    }
+    .step__number {
+        font-size: 24px;
+    }
+    .step__title {
+        font-size: 16px !important;
+    }
+    .service__para {
+        font-size: 14px !important;
+    }
+    .step__para, .pricing__para, .prin__para, .values__para, .quality__para, .features__para {
+        font-size: 12px !important;
+    }
+    .testimonial__title {
+        text-align: center;
+    }
+}
